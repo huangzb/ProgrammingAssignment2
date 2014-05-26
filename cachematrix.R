@@ -1,22 +1,20 @@
 ## The assignment includes two functions to cache 
 ## the inverse of a matrix
 
-## This function creates a special "matrix" object 
-## that can cache its inverse.
-
-## The first function creates a list containing a 
-## function to 
-## 1. set the value of the matrix
-## 2. get the value of the matrix
-## 3. set the value of the inverse of the matrix
-## 4. get the value of the inverse of the matrix
-
 ## Test code:
 ## A <- matrix(c(1, 0, 0, 0, 0, 1, 0, 1, 0), nrow = 3, ncol = 3)
 ## B <- makeCacheMatrix(A)
 ## cacheSolve(B)
 ## cacheSolve(B)
 
+## The first function creates a special "matrix" object 
+## that can cache its inverse.
+## The first function creates a list containing a 
+## function to 
+## 1. set the value of the matrix
+## 2. get the value of the matrix
+## 3. set the value of the inverse of the matrix
+## 4. get the value of the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
